@@ -1,0 +1,36 @@
+{
+  "name": "express",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "express": "3.x",
+    "jade": ">=1.1.5",
+    "stylus": ">=0.42.1",
+    "nib": ">=1.0.2",
+    "bootstrap-stylus": ">= 0.2.1",
+    "coffee-script": ">=1.6.3",
+    "connect-assets": ">=2.5.3",
+    "promised-io": ">=0.3.4",
+    "mongoose": "~3.8.5",
+    "passport": "~0.1.18",
+    "passport-local": "~0.1.6",
+    "passport-facebook": "~1.0.2",
+    "passport-twitter": "~1.0.2",
+    "passport-google-oauth": "~0.1.5",
+    "connect-flash": "~0.1.1",
+    "bcrypt-nodejs": "0.0.3"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "should": "*",
+    "supertest": "*",
+    "grunt-exec": "*"
+  },
+  "subdomain": "epxress",
+  "scripts": {
+    "start": "app.coffee"
+  },
+  "engines": {
+    "node": "0.10.x"
+  }
+}
